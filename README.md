@@ -65,7 +65,7 @@ $$
 $$
 
 **Explanation:**  
-Improves upon Momentum by calculating the gradient at the projected future position, allowing for more responsive updates.
+Improves upon Momentum by calculating the gradient at the projected future position, it "looks ahead" and slows down earlier, reducing overshooting.
 
 **Further Reading:**  
 🔗 [Gradient Descent With Nesterov Momentum From Scratch — Machine Learning Mastery](https://machinelearningmastery.com/gradient-descent-with-nesterov-momentum-from-scratch/)
