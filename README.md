@@ -134,6 +134,10 @@ $$
 **Explanation:**  
 Combines Momentum and RMSProp by keeping track of both the first moment (mean) and second moment (variance) of gradients. It adapts learning rates per parameter and smooths updates, making it very effective for many tasks.
 
+**Further Reading:**  
+🔗 [Adam Paper — "Adam: A Method for Stochastic Optimization"](https://arxiv.org/abs/1412.6980)
+
+
 ---
 
 ## Usage
