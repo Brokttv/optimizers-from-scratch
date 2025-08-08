@@ -26,6 +26,10 @@ SGD, full-batch gradient descent, and mini-batch gradient descent are conceptual
 2. **Full-batch GD**: batch size = number of training samples (updates after full dataset pass)  
 3. **Mini-batch GD**: batch size = chosen mini-batch (e.g., 2, 32, 64, etc.)  
 Each setting affects noise and convergence speed.
+
+**Further Reading:**  
+🔗 [CS231n Optimization Overview (Stanford)](https://cs231n.github.io/optimization-1/)
+
 ---
 
 ### 2. Momentum
@@ -42,6 +46,9 @@ $$
 
 **Explanation:**  
 Adds velocity to the update, accumulating past gradients to smooth out oscillations and speed up convergence.
+
+**Further Reading:**  
+🔗 [Distill.pub — Visualizing Momentum](https://distill.pub/2017/momentum/)
 
 ---
 
@@ -93,6 +100,10 @@ $$
 
 **Explanation:**  
 Uses an exponentially weighted moving average of squared gradients to fix AdaGrad's rapid decay of learning rates, stabilizing training.
+
+**Further Reading:**  
+🔗 [Geoff Hinton's Coursera Lecture — RMSProp](https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)
+
 
 ---
 
