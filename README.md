@@ -151,8 +151,6 @@ Combines Momentum and RMSProp by keeping track of both the first moment (mean) a
 - Each optimizer is implemented in a clear and commented notebook cell.  
 - Experiment with hyperparameters like learning rate and momentum factor for best results.
 
----
 
-## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+
