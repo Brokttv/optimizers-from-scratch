@@ -88,7 +88,7 @@ $$
 Adapts learning rates per parameter based on the cumulative sum of squared gradients, favoring infrequent parameters. Learning rates shrink over time.
 
 **Further Reading:**  
-🔗 [An overview of gradient descent optimization algorithms — Ruder](https://ruder.io/optimizing-gradient-descent/index.html#adagrad) — one of the clearest breakdowns on the web, from a well-respected ML researcher.
+🔗 [An overview of gradient descent optimization algorithms — Ruder](https://www.geeksforgeeks.org/machine-learning/intuition-behind-adagrad-optimizer/)
 
 ---
 
