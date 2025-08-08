@@ -67,6 +67,9 @@ $$
 **Explanation:**  
 Improves upon Momentum by calculating the gradient at the projected future position, allowing for more responsive updates.
 
+**Further Reading:**  
+🔗 [Gradient Descent With Nesterov Momentum From Scratch — Machine Learning Mastery](https://machinelearningmastery.com/gradient-descent-with-nesterov-momentum-from-scratch/)
+
 ---
 
 ### 4. AdaGrad
@@ -83,6 +86,9 @@ $$
 
 **Explanation:**  
 Adapts learning rates per parameter based on the cumulative sum of squared gradients, favoring infrequent parameters. Learning rates shrink over time.
+
+**Further Reading:**  
+🔗 [An overview of gradient descent optimization algorithms — Ruder](https://ruder.io/optimizing-gradient-descent/index.html#adagrad) — one of the clearest breakdowns on the web, from a well-respected ML researcher.
 
 ---
 
