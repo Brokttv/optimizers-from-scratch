@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 import torchvision
 import torchvision.transforms as transforms
 
-# ===== YOUR ORIGINAL RMSPROP IMPLEMENTATION (ADAPTED) =====
+
 
 class RMSpropOptimizerNumPy:
     def __init__(self, input_size, hidden_size, output_size, lr=0.001, beta=0.9, epsilon=1e-8):
