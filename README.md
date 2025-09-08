@@ -15,6 +15,20 @@ I compared my NumPy implementations of **Adam, AdaGrad, NAG, and RMSProp** again
 - **Fashion-MNIST (Classification)**: NumPy was **competitive with PyTorch**, sometimes faster (Adam, AdaGrad) and sometimes slightly slower (RMSProp, NAG). Accuracy and loss trends matched closely.
 
  **Takeaway:** NumPy is more efficient for small regression problems, while PyTorch scales better on larger classification tasks.  
+<br>
+ ### Summary Table
+
+| Optimizer | Task        | NumPy Time | PyTorch Time | Speedup (↑ faster) | Accuracy (NumPy vs PyTorch) |
+|-----------|-------------|------------|--------------|--------------------|-----------------------------|
+| Adam      | Regression  | 9.39s      | 39.14s       | 4.2× (NumPy)       | Similar loss                |
+| Adam      | Classification | 12.72s   | 6.27s        | 0.5× (PyTorch)     | 98.3% vs 97.7%              |
+| AdaGrad   | Regression  | 3.21s      | 35.61s       | 11× (NumPy)        | Similar loss                |
+| AdaGrad   | Classification | 11.54s   | 6.03s        | 0.5× (PyTorch)     | 96.0% vs 95.9%              |
+| NAG       | Regression  | 9.02s      | 34.77s       | 3.8× (NumPy)       | Similar loss                |
+| NAG       | Classification | 9.32s   | 5.74s        | 0.6× (PyTorch)     | 89.0% vs 98.6%              |
+| RMSProp   | Regression  | 4.84s      | 35.89s       | 7.4× (NumPy)       | Similar loss                |
+| RMSProp   | Classification | 10.39s  | 5.68s        | 0.5× (PyTorch)     | 97.8% vs 98.0%              |
+
 
 ---
 
