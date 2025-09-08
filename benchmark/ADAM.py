@@ -11,7 +11,6 @@ from sklearn.model_selection import train_test_split
 import torchvision
 import torchvision.transforms as transforms
 
-# ===== YOUR ORIGINAL ADAM IMPLEMENTATION (ADAPTED) =====
 
 class AdamOptimizerNumPy:
     def __init__(self, input_size, hidden_size, output_size, lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-8):
