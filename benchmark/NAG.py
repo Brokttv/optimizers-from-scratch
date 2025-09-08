@@ -11,7 +11,6 @@ from sklearn.model_selection import train_test_split
 import torchvision
 import torchvision.transforms as transforms
 
-# ===== YOUR ORIGINAL NAG IMPLEMENTATION (ADAPTED) =====
 
 class NAGOptimizerNumPy:
     def __init__(self, input_size, hidden_size, output_size, lr=0.01, momentum=0.9):
