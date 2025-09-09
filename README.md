@@ -9,7 +9,7 @@ Each optimizer is explained intuitively with the corresponding mathematical form
 
 ## Benchmark Results
 
-I compared my NumPy implementations of **Adam, AdaGrad, NAG, and RMSProp** against PyTorch on two datasets:
+I compared my NumPy implementations of **Adam, AdaGrad, NAG, and RMSProp** against PyTorch on two datasets where each version ran on its respective device (cpu for numpy optimizers and cuda for pytorch's):
 
 - **California Housing (Regression)**: NumPy ran up to **7–10× faster**  with comparable final losses.  
 - **Fashion-MNIST (Classification)**: NumPy was **competitive with PyTorch**, sometimes faster (Adam, AdaGrad) and sometimes slightly slower (RMSProp, NAG). Accuracy and loss trends matched closely.
